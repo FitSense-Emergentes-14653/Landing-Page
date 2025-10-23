@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitSense - Transforma tus datos en resultados reales</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="assets/Fitsense-logo.png">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <img src="assets/Fitsense-logo.png" alt="FitSense Logo" class="logo-image">
+            <span>FitSense</span>
+        </div>
+        <nav>
+            <a href="#inicio" data-translate="inicio">Inicio</a>
+            <a href="#beneficios" data-translate="beneficios">Beneficios</a>
+            <a href="#planes" data-translate="planes">Planes</a>
+            <a href="#sobre" data-translate="sobreNosotros">Sobre Nosotros</a>
+        </nav>
+        <div class="header-buttons">
+            <button class="language-toggle" id="language-toggle" aria-label="Cambiar idioma">ES</button>
+            <button class="theme-toggle" id="theme-toggle" aria-label="Cambiar tema">🌙</button>
+            <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Abrir menú">☰</button>
+            <button class="btn-login" data-translate="registro">Registro</button>
+            <button class="btn-primary" data-translate="acceder">Acceder</button>
+        </div>
+        <!-- Menú móvil -->
+        <div class="mobile-menu" id="mobile-menu">
+            <nav>
+                <a href="#inicio" data-translate="inicio">Inicio</a>
+                <a href="#beneficios" data-translate="beneficios">Beneficios</a>
+                <a href="#planes" data-translate="planes">Planes</a>
+                <a href="#sobre" data-translate="sobreNosotros">Sobre Nosotros</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="inicio">
+        <div class="hero-content">
+            <h1 data-translate="heroTitle">Transforma tus datos en resultados reales</h1>
+            <p data-translate="heroDescription">FitSense combina inteligencia artificial y entrenamiento personalizado para que alcances tus metas de forma más rápida, segura y motivadora.</p>
+            <button class="btn-primary" data-translate="heroButton">Comienza ahora gratis</button>
+        </div>
+        <div class="hero-image">
+            <img src="assets/banner.png" alt="Hombre entrenando en el gimnasio">
+            <div class="overlay"></div>
+        </div>
+    </section>
+
+    <!-- Beneficios Section -->
+    <section class="beneficios" id="beneficios">
+        <h2 class="section-title" data-translate="beneficiosTitle">Beneficios</h2>
+        <div class="beneficios-grid">
+            <div class="benefit-card">
+                <div class="benefit-icon">💪</div>
+                <div class="benefit-content">
+                    <h3 data-translate="benefit1Title">Entrenamiento Personalizado</h3>
+                    <p data-translate="benefit1Desc">Planes personalizados según tu nivel y objetivos.</p>
+                </div>
+            </div>
+            <div class="benefit-card">
+                <div class="benefit-icon">📈</div>
+                <div class="benefit-content">
+                    <h3 data-translate="benefit2Title">Progreso en Tiempo Real</h3>
+                    <p data-translate="benefit2Desc">Comunidad activa que impulsa tu constancia.</p>
+                </div>
+            </div>
+            <div class="benefit-card">
+                <div class="benefit-icon">🔧</div>
+                <div class="benefit-content">
+                    <h3 data-translate="benefit3Title">Tecnología Inteligente</h3>
+                    <p data-translate="benefit3Desc">Seguimiento de progreso con métricas visuales.</p>
+                </div>
+            </div>
+            <div class="benefit-card">
+                <div class="benefit-icon">⏰</div>
+                <div class="benefit-content">
+                    <h3 data-translate="benefit4Title">Motivación Constante</h3>
+                    <p data-translate="benefit4Desc">Recordatorios y motivación diaria.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Planes Section -->
+    <section class="planes" id="planes">
+        <h2 class="section-title" data-translate="planesTitle">Planes</h2>
+        <div class="planes-grid">
+            <div class="plan-card">
+                <div class="plan-name" data-translate="planFreemium">Freemium</div>
+                <div class="plan-price">$ 0</div>
+                <div class="plan-features">
+                    <div class="plan-feature" data-translate="freemiumFeature1">Acceso gratuito a rutinas básicas personalizadas.</div>
+                    <div class="plan-feature" data-translate="freemiumFeature2">Seguimiento de progreso con métricas visuales.</div>
+                    <div class="plan-feature" data-translate="freemiumFeature3">Comunidad FitSense para motivarte.</div>
+                </div>
+                <button class="btn-primary" data-translate="planButton">Lo quiero</button>
+            </div>
+            <div class="plan-card">
+                <div class="plan-name" data-translate="planPremium">Premium</div>
+                <div class="plan-price">$ 49</div>
+                <div class="plan-features">
+                    <div class="plan-feature" data-translate="premiumFeature1">Planes personalizados con IA avanzados</div>
+                    <div class="plan-feature" data-translate="premiumFeature2">Dashboard completo de progreso y logros</div>
+                    <div class="plan-feature" data-translate="premiumFeature3">Acceso a desafíos, insignias y estadísticas premium</div>
+                    <div class="plan-feature" data-translate="premiumFeature4">Recordatorios de hidratación y actividad diaria</div>
+                </div>
+                <button class="btn-primary" data-translate="planButton">Lo quiero</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre Nosotros Section -->
+    <section class="sobre-nosotros" id="sobre">
+        <div class="sobre-content">
+            <h2 data-translate="sobreTitle">Sobre Nosotros</h2>
+            <p data-translate="sobreDesc1"><strong>Tech Solutions</strong> es una startup formada por cinco estudiantes de la Universidad Peruana de Ciencias Aplicadas (UPC), dedicada a desarrollar soluciones digitales innovadoras que integran inteligencia artificial y tecnología móvil.</p>
+            <p data-translate="sobreDesc2"><strong>Nuestro propósito</strong> es transformar la forma en que las personas se relacionan con la tecnología, creando experiencias prácticas, accesibles y personalizadas.</p>
+            <p data-translate="sobreDesc3">Con <strong>FitSense</strong>, buscamos revolucionar el bienestar digital, ofreciendo una plataforma que combina ciencia, datos y motivación para acompañar a cada usuario en el logro de sus metas fitness.</p>
+        </div>
+        <div class="sobre-image">
+            <img src="assets/sobre-nosotros.jpg" alt="Edificio de Tech Solutions">
+        </div>
+    </section>
+
+    <!-- Equipo Section -->
+    <section class="equipo">
+        <h2 class="section-title" data-translate="equipoTitle">TechSolutions</h2>
+        <div class="equipo-grid">
+            <div class="team-member">
+                <div class="team-image">
+                    <img src="assets/perfil_adrian.png" alt="Adrián">
+                </div>
+                <div class="team-info">
+                    <div class="team-name">Adrian Rubio</div>
+                    <div class="team-socials">
+                        <div class="social-icon">f</div>
+                        <div class="social-icon">in</div>
+                        <div class="social-icon">w</div>
+                    </div>
+                </div>
+            </div>
+            <div class="team-member">
+                <div class="team-image">
+                    <img src="assets/perfil_fiorella.png" alt="Fiorella">
+                </div>
+                <div class="team-info">
+                    <div class="team-name">Fiorella Jarama</div>
+                    <div class="team-socials">
+                        <div class="social-icon">f</div>
+                        <div class="social-icon">in</div>
+                        <div class="social-icon">w</div>
+                    </div>
+                </div>
+            </div>
+            <div class="team-member">
+                <div class="team-image">
+                    <img src="assets/perfil_juan.png" alt="Juan">
+                </div>
+                <div class="team-info">
+                    <div class="team-name">Juan Calisaya</div>
+                    <div class="team-socials">
+                        <div class="social-icon">f</div>
+                        <div class="social-icon">in</div>
+                        <div class="social-icon">w</div>
+                    </div>
+                </div>
+            </div>
+            <div class="team-member">
+                <div class="team-image">
+                    <img src="assets/perfil_juan_jesus.png" alt="Juan Jesús">
+                </div>
+                <div class="team-info">
+                    <div class="team-name">Juan Cuadros</div>
+                    <div class="team-socials">
+                        <div class="social-icon">f</div>
+                        <div class="social-icon">in</div>
+                        <div class="social-icon">w</div>
+                    </div>
+                </div>
+            </div>
+            <div class="team-member">
+                <div class="team-image">
+                    <img src="assets/perfil_nadia.png" alt="Nadia">
+                </div>
+                <div class="team-info">
+                    <div class="team-name">Nadia Lucas</div>
+                    <div class="team-socials">
+                        <div class="social-icon">f</div>
+                        <div class="social-icon">in</div>
+                        <div class="social-icon">w</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-section">
+            <div class="footer-logo">
+                <img src="assets/Fitsense-logo.png" alt="FitSense Logo" class="logo-image">
+                <span>FitSense</span>
+            </div>
+            <p data-translate="footerTagline">Tu asistente IA favorito</p>
+        </div>
+        <div class="footer-section">
+            <h3 data-translate="footerAddress">Address</h3>
+            <p data-translate="footerLocation">Lima, Perú</p>
+        </div>
+        <div class="footer-section">
+            <h3 data-translate="footerContact">Contact</h3>
+            <p>📞 +51 933104903</p>
+            <p>📧 nad21lc@gmail.com</p>
+            <div class="footer-socials">
+                <div class="footer-social">f</div>
+                <div class="footer-social">in</div>
+                <div class="footer-social">tw</div>
+                <div class="footer-social">yt</div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
